@@ -8,4 +8,4 @@ here i will upload my web dev learnings.
  ## Tools & resources I'm using:
 
  1. ChatGpt
- 2. mdn web docs [](https://developer.mozilla.org/en-US/docs/Learn_web_development)
+ 2. mdn web docs [mdn](https://developer.mozilla.org/en-US/docs/Learn_web_development)
