@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type of Forms</title>
+</head>
+<body>
+    <!------------------------------------- CODE 1 --------------------------------------->
+    <form action="/submit" method="post">
+        <h1>Login Form</h1>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Enter your email">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="Enter your password">
+        </div>
+        <button type="submit">login</button>
+    </form>
+
+    <!------------------------------------- CODE 2 --------------------------------------->
+    <form action="/submit" method="post">
+        <h1>Registration Form</h1>
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" name="username" placeholder="Enter your username">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Enter your email">
+        </p>
+        <p>Select your gender:</p>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+
+        <p>Select your hobbies:</p>
+        <input type="checkbox" name="hobby" value="reading"> Reading
+        <input type="checkbox" name="hobby" value="sports"> Sports
+
+        <p>Select your country:
+            <select name="country">
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+    </form>
+    <!--------------------------------- CODE 2(improved) ----------------------------------->
+    <form action="/submit" method="post">
+        <h1>Registration Form(new)</h1>
+
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+        </p>
+
+        <p>Select your gender:</p>
+        <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other"> <label for="other">Other</label>
+
+        <p>Select your hobbies:</p>
+        <input type="checkbox" id="reading" name="hobby" value="reading"> <label for="reading">Reading</label>
+        <input type="checkbox" id="sports" name="hobby" value="sports"> <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="hobby" value="music"> <label for="music">Music</label>
+
+        <p>
+            <label for="country">Select your country:</label>
+            <select id="country" name="country">
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+        </p>
+
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+    </form>
+
+
+</body>
+</html>
