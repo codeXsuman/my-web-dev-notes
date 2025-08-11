@@ -1,0 +1,77 @@
+.contentbox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    /* Vertically center items */
+    justify-content: space-between;
+    /* Spread items */
+    flex-wrap: wrap;
+    /* Allow wrapping on small screens */
+    background-color: #232f3e;
+    /* Amazon navbar color */
+    padding: 10px;
+}
+
+.navbar .logo {
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.navbar input[type="text"] {
+    padding: 5px;
+    flex: 1;
+    /* Take available space */
+    min-width: 150px;
+}
+
+.navbar button {
+    margin-left: 5px;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 10px;
+    /* Space between links */
+}
+
+.navbar .links a {
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.navbar .links a:hover {
+    background: #444;
+}
+
+
+/* ----------------------- Footer-------------------------*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    height:650px;
+}

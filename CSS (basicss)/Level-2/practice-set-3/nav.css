@@ -1,0 +1,91 @@
+/* #navbar {
+    height: 50px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #f0c14b;
+    border: 2px solid #a88734;
+    color: black;
+    border: none;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(255, 186, 24, 0.86);
+    text-decoration: none;
+    margin-left: 20px;
+    text-shadow: black 1px 1px 2px;
+}
+
+a {
+    margin-right: 12%;
+    border: 1px solid black;
+    padding: 5px;
+} */
+
+
+.navbar {
+      display: flex;
+        align-items: center;       /* Vertically center items */
+          justify-content: space-between; /* Spread items */
+            flex-wrap: wrap;           /* Allow wrapping on small screens */
+              background-color: #232f3e; /* Amazon navbar color */
+                padding: 10px;
+}
+
+.navbar .logo {
+      color: yellow;
+        font-weight: bold;
+          font-size: 20px;
+            margin-right: 20px;
+}
+
+.navbar input[type="text"] {
+      padding: 5px;
+        flex: 1; /* Take available space */
+          min-width: 150px;
+}
+
+.navbar button {
+      margin-left: 5px;
+}
+
+.navbar .links {
+      display: flex;
+        gap: 10px;   /* Space between links */
+}
+
+.navbar .links a {
+      background: #333;
+        color: white;
+          padding: 5px 10px;
+            border-radius: 4px;
+              text-decoration: none;
+}
+
+.navbar .links a:hover {
+      background: #444;
+}

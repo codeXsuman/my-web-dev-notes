@@ -1,0 +1,107 @@
+h2 {
+    color: #4CAF50; /* Green */
+    font-size: 24px;
+    border: 2px solid #4CAF50; /* Green border */
+    padding: 10px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+}
+p {
+    font-size: 16px;
+    /* font: italic normal 16px Arial, sans-serif; */
+    line-height: 1.5;
+    color: #7a7dd5; /* Dark gray */
+}
+h1 {
+    color: #000000; /* Green */
+    border: none;
+    border-radius: 10px;
+    font-size: 36px;
+    text-align: center;
+    padding: 10px;
+    background-color: #d4cb91; /* Light gray background */
+    box-shadow: 2px 2px 5px rgb(187, 143, 143);
+
+}
+body {
+    background-color: rgb(228, 225, 221); /* Dark brown background */
+    color: #ffffff; /* White text */
+    /* font-family: 'Courier New', Courier, monospace; */
+    margin: 0;
+    padding: 20px;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for hover effect */
+}
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.myClass {
+    color: #ff0000; /* Red text */
+    margin-block: 20px;
+}
+
+span {
+    color: #117114; /* Red text */
+    border: 2px solid #117114; /* Red border */
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    display: inline-block; /*Makes the span behave like a block element*/
+    border-radius: 10px; /* Rounded corners */
+    background-color: #d4cb91; /* Light gray background */
+} 
+
+#Long-text {
+    color: #000000; /* Black text */
+    font-size: 12px;
+    font-style: italic; /* Serif font */
+    /* font-weight: bold; */
+    border: 2px solid #000000; /* Black border */
+    /* line-height: 1.6; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+/* #Long-text:hover {
+    color: #ff0000; /* Red text on hover */
+    /* background-color: #f0f0f0; Light gray background on hover */
+/* } */
+/* #Long-text:active { */
+    /* color: #0000ff; Blue text on active */
+    /* background-color: #d4cb91; Light gray background on active */
+/* } */ 
+
+#Long-text2 {
+    color: #000000; /* Black text */
+    font-size: 12px;
+    font-family: cursive; /* Serif font */
+    /* font-weight: bold; */
+    border: 2px solid #000000; /* Black border */
+    /* line-height: 1.6; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#headTwo {
+    color: #e1a20d; /* Blue text */
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: black wavy underline; /* Underlined text */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Centered text */
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    /* background-color: #f7f5ea; */
+}
