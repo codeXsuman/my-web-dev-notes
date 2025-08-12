@@ -1,0 +1,21 @@
+div {
+    background-color: antiquewhite;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+    /* justify-content: space-evenly; */
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    /* justify-content:space-evenly; */
+}
