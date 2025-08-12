@@ -1,21 +1,39 @@
-div {
-    background-color: antiquewhite;
-}
 
-ul {
+.navbar {
+    background-color:#2b429d;
+    border-radius: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
 }
 
 a {
+    /* border: 2px solid black; */
     text-decoration: none;
+    /* padding: 10px; */
     color: black;
-    background-color: aquamarine;
-    /* justify-content: space-evenly; */
+    /* background-color: rgb(63, 252, 73); */
 }
 
 li {
+    background-color:#9fafed;
+    padding: 10px;
+    border: 2px;
     list-style-type: none;
     display: inline;
-    /* justify-content:space-evenly; */
+    border-radius: 30px;
+}
+/*=============== QS: 2 ============================================ */
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+    height: 200px;
+    width: 200px;
+    background-color: green;
 }

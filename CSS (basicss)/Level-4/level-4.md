@@ -3,8 +3,8 @@
 ## Flexbox
 `Flexible Box Layout`
 *It is a one-dimensional layout method for arranging items in rows or columns.*
-![img](/data/Screenshot_20250811-212324_Chrome.jpg)
-<!-- <img src="/data/Screenshot_20250811-212324_Chrome.jpg" alt="img" width="300px"> -->
+![img](/my-web-dev-notes/)
+<!-- <img src="/my-web-dev-notes/CSS (basicss)/data/Screenshot_20250811-212324_Chrome.jpg" alt="img" width="300px"> -->
 
 ### **Flexbox Direction**
 *It sets how flex items are placed in the flex container, along which axis and direction.*
@@ -25,3 +25,25 @@
 space is available)*
 * `flex-shrink :` *(how much a flex item will shrink relative to the rest of the flex items if
 space is available)*
+
+## Media Queries
+*Help create a responsive website*
+```css
+@media (width:400px) {  /* bg-color will be red at 600px */
+    div {
+        background-color: red;
+    }
+}
+
+@media (min-width:600px) { /* if width > 600px Bg-colour will be changed */
+    div{
+        background-color: chocolate;
+    }
+}
+
+@media (min-width : 200px) and (max-width : 300px) {
+    div {
+        background-color : red;
+    }
+}
+```
